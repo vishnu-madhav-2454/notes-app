@@ -3,11 +3,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toast'
+
 import Navbar from './components/navbar';
 import Home from './components/home';
 import Paste from './components/paste';
-import ViewPaste from './components/viewpaste';
+
 
 
 const router = createBrowserRouter([
@@ -28,16 +28,7 @@ const router = createBrowserRouter([
         <Paste />
       </div>
     ),
-  },
-  {
-    path: '/paste/:id',
-    element: (
-      <div>
-        <Navbar />
-        <ViewPaste />
-      </div>
-    ),
-  },
+  }
 ]);
 
 function App() {

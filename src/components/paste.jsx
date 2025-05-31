@@ -90,12 +90,6 @@ const Paste = () => {
                   Copy
 
                 </button>
-                <button className='bg-purple-400 text-white px-5 py-2 rounded'>
-                  <a href={`/paste/${paste?.id}`} className='font-mono text-white-700'>
-                    View
-                  </a>
-
-                </button>
               </div>
             </div>
           ))
